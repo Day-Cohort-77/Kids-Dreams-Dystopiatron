@@ -35,9 +35,13 @@ Make sure your Developer Tools are open at all times while working on this proje
 Before you click the "Complete Assessment" button on the Learning Platform, add your answers below each question and make a commit.
 
 1. When a child is clicked on in the browser, which module contains the code that will execute on that event happening? Can you explain the algorithm of that logic?
-      
-      The code that executes when a child element is clicked is contained within the document.addEventListener block in the same module where the Kids() function is defined. 
-      The EventListener registers click on childs name from     document. it first checks if the clicked element is equal to "child", ensuring the code runs only when a "<li>" text representing a child (created in the Kids() function) is "clicked". "childId" is then extracted from the dataset targeted, and an alert window displays the text describing the child's wish.
+
+The code that executes when a child element is clicked is contained within the document.addEventListener block in the same module where the Kids() function is defined. 
+The EventListener registers click on childs name from     document. it first checks if the clicked element is equal to "child", ensuring the code runs only when a "<li>" text representing a child (created in the Kids() function) is "clicked". "childId" is then extracted from the dataset targeted, and an alert window displays the text describing the child's wish.
+
+
+
+
 
 2. In the **Pairings** module, why must the `findCelebrityMatch()` function be invoked inside the `for..of` loop that iterates the kids array?
 
