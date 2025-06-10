@@ -5,7 +5,8 @@ import { Kids } from "./Kids.js"
 const mainContainer = document.querySelector("#container")
 
 const applicationHTML = `
-    <h1>Make a Memory for Kids</h1>
+    <h1>CELEBRITIES AND KIDS!</h1>
+    <h2>Terminal Wish Foundation</h2>
     <article class="details">
         <section class="detail--column list details__kids">
             <h2>Kids</h2>
@@ -22,5 +23,9 @@ const applicationHTML = `
     </article>
 `
 
-mainContainer.innerHTML = applicationHTML
+mainContainer.innerHTML = applicationHTML                   
+// Render the Pairings component after the main HTML is set
+const pairingsContainer = document.querySelector(".assignments")
+pairingsContainer.innerHTML = Pairings()
+
 
